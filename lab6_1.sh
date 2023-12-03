@@ -9,7 +9,7 @@ sum=$(( (sum + rem) * 10))
 item=`expr $item / 10`
 done
 
-if [ $((sum/10)) -eq $num  ];
+if [ $((sum/10)) -eq $num  ]
 then
 echo "it is pallindrome"
 else
